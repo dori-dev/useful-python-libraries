@@ -6,6 +6,8 @@ Python useful mini libraries cheat sheet!
 - textwrap
 - faker
 - enum
+- docx
+
 #
 ## Links
 
