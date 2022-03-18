@@ -1,5 +1,5 @@
 # Useful Python Libraries
-Python useful mini libraries cheat sheet!
+Python useful libraries or method cheat sheet!
 
 #
 ## List of libraries
