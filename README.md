@@ -7,6 +7,7 @@ Python useful mini libraries cheat sheet!
 - faker
 - enum
 - docx
+- os
 
 #
 ## Links
