@@ -5,7 +5,7 @@ Python useful mini libraries cheat sheet!
 ## List of libraries
 - textwrap
 - faker
-
+- enum
 #
 ## Links
 
