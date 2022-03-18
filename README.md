@@ -1,5 +1,10 @@
 # Useful Python Libraries
-Python useful libraries cheat sheet!
+Python useful mini libraries cheat sheet!
+
+#
+## List of libraries
+- textwrap
+- faker
 
 #
 ## Links
