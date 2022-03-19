@@ -8,6 +8,7 @@ Python useful libraries cheat sheet!
 - enum
 - docx
 - os
+- doctest
 
 #
 ## Links
