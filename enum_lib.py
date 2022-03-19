@@ -20,6 +20,7 @@ class Days(en.Enum):
 
 
 class IntDay(en.IntEnum):
+    """Int Enum Week Days"""
     MON = 0
     SUN = 1
     TUE = 2

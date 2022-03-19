@@ -43,11 +43,22 @@ class Introduction:
         self.document.add_heading(msg, level=0)
 
     def add_text(self, text: list):
+        """add text to page
+
+        Args:
+            text (list): list of text line
+        """
         # alignments => 0=left, 1=center, 2=right, 3=justified
         for number, line in enumerate(text):
             self.document.add_paragraph(line).alignment = number
 
     def add_section(self, head_text: str, foot_text: str):
+        """add section header and footer of all pages
+
+        Args:
+            head_text (str): header text
+            foot_text (str): footer text
+        """
         section_file = self.document.sections
         header = section_file[0].header.paragraphs[0]
         footer = section_file[0].footer.paragraphs[0]
@@ -57,6 +68,12 @@ class Introduction:
         footer.alignment = 1
 
     def add_table(self, data: list, style: str):
+        """add table with `data`
+
+        Args:
+            data (list): data of table
+            style (str): style of table
+        """
         table = self.document.add_table(rows=4, cols=4, style=None)
         table.style = style
         for i in range(4):
