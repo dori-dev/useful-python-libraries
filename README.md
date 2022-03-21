@@ -13,6 +13,7 @@ Python useful libraries cheat sheet!
 - datetime
 - time
 - sys
+- calendar
 
 #
 ## Links
