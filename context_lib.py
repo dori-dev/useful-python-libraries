@@ -4,7 +4,15 @@ import contextlib
 
 
 @contextlib.contextmanager
-def show(name):
+def show(name: str) -> str:
+    """show name
+
+    Args:
+        name (str): name of user
+
+    Yields:
+        str: name with format
+    """
     # __enter__
     print('Starting Context Manger...', name)
     yield f"name: {name}"
@@ -18,6 +26,9 @@ with show('salar') as one, show('ali') as two:
 
 
 class MyContextManager(contextlib.ContextDecorator):
+    """my custom context manager
+    """
+
     def __enter__(self):
         print('Starting...')
 
@@ -30,8 +41,10 @@ with MyContextManager():
 
 
 @MyContextManager()
-def show():
+def show_hello():
+    """show hello message
+    """
     print('Hello, there!')
 
 
-show()
+show_hello()

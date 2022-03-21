@@ -19,8 +19,8 @@ print(date.month)
 print(date.day)
 
 # time-stamp: 1970-01-01 00:00:00
-one_day = 24*60*60
-print(dt.date.fromtimestamp(one_day*20))
+ONE_DAY = 24*60*60
+print(dt.date.fromtimestamp(ONE_DAY*20))
 print(dt.date.today())
 
 # custom date
