@@ -9,7 +9,7 @@ Python useful libraries cheat sheet!
 - docx
 - os
 - doctest
-
+- googletrans
 #
 ## Links
 
