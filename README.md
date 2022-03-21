@@ -12,6 +12,7 @@ Python useful libraries cheat sheet!
 - googletrans
 - datetime
 - time
+- sys
 
 #
 ## Links

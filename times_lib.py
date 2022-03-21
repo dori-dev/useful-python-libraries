@@ -11,7 +11,7 @@ print(time.gmtime(200_000))
 
 # current time in sec since the epoch
 print(time.time())
-# currenct time
+# current time
 print(time.ctime())
 
 print('Hello')
