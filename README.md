@@ -11,6 +11,7 @@ Python useful libraries cheat sheet!
 - doctest
 - googletrans
 - datetime
+- time
 
 #
 ## Links
