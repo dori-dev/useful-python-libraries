@@ -25,4 +25,20 @@ list_data = [
 ]
 
 with open('data.json', 'w') as json_data:
-    json.dump(list_data, json_data)
+    json.dump(list_data, json_data, indent=4)
+
+
+info_dict = {
+    'name': 'salar',
+    'age': 16,
+    'address': 'Isfahan',
+    'grades': (10, 15, 20, 18),
+}
+
+with open('info.json', 'w') as info_json:
+    json.dump(info_dict, info_json, indent=4)
+
+with open('info.json', 'r') as info_json:
+    info = json.load(info_json)
+
+print(info)
