@@ -2,7 +2,6 @@
 """
 # JSON: JavaScript Object Notation
 import json
-from unicodedata import name
 
 
 with open("assets/school_info.json", "r") as json_file:
