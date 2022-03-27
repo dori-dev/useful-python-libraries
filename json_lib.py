@@ -3,9 +3,9 @@
 # JSON: JavaScript Object Notation
 import json
 
-with open("assets/school_info.json", "r") as json_school:
-    school_data = json.load(json_school)
 
+with open("assets/school_info.json", "r") as json_file:
+    school_data = json.load(json_file)
 print(type(school_data))
 # list
 print(school_data[0])
@@ -23,9 +23,8 @@ list_data = [
     },
     (1, 2, 3, 4)
 ]
-
-with open('data.json', 'w') as json_data:
-    json.dump(list_data, json_data, indent=4)
+with open('data.json', 'w') as json_file:
+    json.dump(list_data, json_file, indent=4)
 
 
 info_dict = {
@@ -34,11 +33,10 @@ info_dict = {
     'address': 'Isfahan',
     'grades': (10, 15, 20, 18),
 }
+with open('info.json', 'w') as json_file:
+    json.dump(info_dict, json_file, indent=4)
 
-with open('info.json', 'w') as info_json:
-    json.dump(info_dict, info_json, indent=4)
 
-with open('info.json', 'r') as info_json:
-    info = json.load(info_json)
-
+with open('info.json', 'r') as json_file:
+    info = json.load(json_file)
 print(info)
